@@ -19,7 +19,11 @@ const companySchema = new mongoose.Schema({
   industryType: String,
   website: String,
   Bio: { type: String, default: "Write something about your company" },
-  createdAt: { type: Date, default: Date.now },
+  createdAt: { type: Date,   default: () => {
+    const now = new Date();
+    now.setMinutes(now.getMinutes() + 330);
+    return now;
+  } },
   status: { type: String, default: "Active" }
 });
 
