@@ -23,5 +23,5 @@ const companySchema = new mongoose.Schema({
   status: { type: String, default: "Active" }
 });
 
-const Company = mongoose.model("Company", companySchema);
-export default Company;
+const company = mongoose.model("company", companySchema);
+export default company;
