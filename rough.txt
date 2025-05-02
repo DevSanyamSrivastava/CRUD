@@ -1,0 +1,24 @@
+https://crud-e139.onrender.com/api/employees/register
+
+
+{
+  "companyID": "TECH001",
+  "employeeID": "EMP002",
+  "name": "Jane Doe",
+  "email": "jane.doe@techvibe.com",
+  "phone": "9876543210",
+  "department": "Marketing",
+  "jobTitle": "Marketing Manager",
+  "gender": "Female",
+  "dob": "1990-04-22",
+  "joiningDate": "2023-03-01",
+  "address": {
+    "line1": "21B Baker Street",
+    "line2": "Apt 4",
+    "city": "London",
+    "state": "London",
+    "country": "UK",
+    "pincode": "123456"
+  },
+  "password": "SecurePass123"
+}

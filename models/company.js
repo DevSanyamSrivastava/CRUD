@@ -15,8 +15,10 @@ const companySchema = new mongoose.Schema({
     country: String,
     pincode: String,
   },
+
   industryType: String,
   website: String,
+  Bio: { type: String, default: "Write something about your company" },
   createdAt: { type: Date, default: Date.now },
   status: { type: String, default: "Active" }
 });
